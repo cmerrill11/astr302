@@ -13,28 +13,28 @@ class Calculator:
     """
     def __init__(self,value = 0):
         self.value = value
-    
+
     """Addition: self.value + num"""
     def add(self, num):
         self.value += num
         return self.value
-    
+
     """Subtraction: self.value - num"""
     def sub(self, num):
         self.value -= num
         return self.value
-    
+
     """Multiplication: self.value * num"""
     def mul(self, num):
         self.value *= num
         return self.value
-    
+
     """Divide: self.value / num"""
-    
+
     def div(self, num):
         self.value /= num
         return self.value
-    
+
     """Clr: Clear the current value"""
     def clr(self):
         self.value = 0
@@ -42,3 +42,5 @@ class Calculator:
     """Print the result"""
     def result(self):
         return self.value
+
+        """ Sup dude - Anthony"""
